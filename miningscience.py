@@ -77,7 +77,7 @@ def map_science(tipo):
     plt.annotate('Arizona', xy = (-111.763275, 34.395342), 
                    xytext = (-111.763275, 34.395342), arrowprops= ard)
     plt.annotate('Tennessee', xy = (-86.2820081, 35.7730076), 
-                   xytext = (86.2820081, 35.7730076), arrowprops= ard)
+                   xytext = (-86.2820081, 35.7730076), arrowprops= ard)
     params = plt.gcf()
     plSize = params.get_size_inches()
     params.set_size_inches( (plSize[0] * 3, plSize[1] * 3) )
